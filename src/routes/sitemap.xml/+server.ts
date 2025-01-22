@@ -6,6 +6,9 @@ export const GET: RequestHandler = async ({ request }) => {
   const baseURL = import.meta.env.PROD
     ? SITE_URL
     : `${url.protocol}//${url.host}`;
+  const researchURL = import.meta.env.PROD
+    ? `https://research.${SITE_URL.replace('https://', '')}`
+    : `${url.protocol}//research.${url.host}`;
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -15,6 +18,14 @@ export const GET: RequestHandler = async ({ request }) => {
             <lastmod>${new Date().toISOString()}</lastmod>
             <changefreq>daily</changefreq>
             <priority>1.0</priority>
+        </url>
+
+        <!-- Research subdomain -->
+        <url>
+            <loc>${researchURL}</loc>
+            <lastmod>${new Date().toISOString()}</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.9</priority>
         </url>
 
         <!-- Static pages -->
