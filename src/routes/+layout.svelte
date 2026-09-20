@@ -21,7 +21,7 @@
 		content="A league of creatives, researchers, developers, and marketers committed to making Ethereum great again. Ethereum's Unofficial Creative Studio™."
 	/>
 	<meta property="og:image" content="/open-graph.png" />
-	<meta property="og:url" content="https://2077.xyz/" />
+	<meta property="og:url" content="https://2077collective.xyz/" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:site_name"
@@ -55,11 +55,8 @@
 		content="ethereum, evm, crypto research, eip, blockchain"
 	/>
 	<meta name="author" content="@2077Collective" />
-	<meta property="og:url" content="https://2077.xyz/" />
+	<meta property="og:url" content="https://2077collective.xyz/" />
 	<meta property="og:logo" content="/logo.svg" />
-
-	<!--Plausible analytics-->
-	<script defer data-domain="2077.xyz" src="https://analytics.2077.xyz/js/script.js"></script>
 </svelte:head>
 
 <div>

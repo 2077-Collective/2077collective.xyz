@@ -1,14 +1,9 @@
 import type { RequestHandler } from "@sveltejs/kit";
-import { SITE_URL } from "$env/static/private";
 
 export const GET: RequestHandler = async ({ request }) => {
   const url = new URL(request.url);
-  const baseURL = import.meta.env.PROD
-    ? SITE_URL
-    : `${url.protocol}//${url.host}`;
-  const researchURL = import.meta.env.PROD
-    ? `https://research.${SITE_URL.replace('https://', '')}`
-    : `${url.protocol}//research.${url.host}`;
+  const baseURL = `${url.protocol}//${url.host}`;
+  const researchURL = "https://research.2077.xyz";
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

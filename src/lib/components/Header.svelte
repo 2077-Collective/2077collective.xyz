@@ -28,7 +28,7 @@
                     <a href="https://eips.wiki" target="_blank" rel="noopener noreferrer">EIP Wiki</a>
                 </li>
                 <li>
-                    <a href="https://etherpedia.2077.xyz" target="_blank" rel="noopener noreferrer"
+					<a href="https://etherpedia.2077collective.xyz" target="_blank" rel="noopener noreferrer"
                         >Etherpedia</a
                     >
                 </li>

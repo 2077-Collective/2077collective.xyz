@@ -377,8 +377,8 @@
                 <div>
                     <a
                         class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-base font-medium"
-                        href="https://etherpedia.2077.xyz" target="_blank" rel="noopener noreferrer"
-                        >etherpedia.2077.xyz <span class="inline-block"
+						href="https://etherpedia.2077collective.xyz" target="_blank" rel="noopener noreferrer"
+						>etherpedia.2077collective.xyz <span class="inline-block"
                             ><Explore /></span
                         ></a
                     >

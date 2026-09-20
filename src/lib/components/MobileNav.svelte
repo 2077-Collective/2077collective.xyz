@@ -46,7 +46,7 @@
             </li>
             <li>
                 <a
-                    href="https://etherpedia.2077.xyz"
+					href="https://etherpedia.2077collective.xyz"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
                     rel="noopener noreferrer"
